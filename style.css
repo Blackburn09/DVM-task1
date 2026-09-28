@@ -1,0 +1,133 @@
+body{
+    background-color: #362d59;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content:center;
+    position:sticky;
+}
+
+.nav-list{
+    color:white;
+    display:flex;
+    gap:30px;
+    font-size:15px;
+    list-style:none;
+}
+.nav-btn{
+    background-color:inherit;
+    color:white;
+    border:none;
+}
+.get-started-btn{
+    background-color:white;
+    border-radius:5px;
+    height:35px;
+    border:2px solid transparent;
+    
+    color:#362d59;
+
+}
+.demo-btn {
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+  padding: 0 16px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#362d59, #362d59), 
+                     linear-gradient(111deg, #fa7faa 0%, #ff9691 50%, #ffb287 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.nav-item{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.relative{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    max-width: 100%;
+    margin:0 auto;
+}
+.home-text{
+    color:white;
+    font-size:5em;
+}
+.break{
+    color: #fd44b0;
+}
+.sub-text{
+    color:white;
+    font-size:2em;
+    max-width:50%;
+    margin: 0 auto;
+}
+.mini-container{
+    display:flex;
+    max-width:100%;
+    margin:0 auto;
+    gap:20px;
+    margin-top: 40px;
+    padding:10px;
+}
+.abduction{
+    background:inherit;
+}
+.img-container{
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
+    max-width:100%
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    max-width: 100%;
+    margin:0 auto;
+}
+.mini-header{
+    color:white;
+    font-size:3.75em;
+}
+.text-container{
+    margin:0 auto;
+    margin-left:20%;
+    max-width:30%;
+    text-align:left;
+}
+.div-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  column-gap: 2rem;
+  row-gap: 3.5rem;
+}
+.img-blend{
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width:400px;
+    height:180px;
+}
+.sub-img{
+    
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.sub-img h3,p{
+    color:white;
+    font-size:1em;
+}
